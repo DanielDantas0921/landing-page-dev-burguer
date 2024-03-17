@@ -6,10 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./src/css/output.css">
     <title>Dev Burguer - A melhor hamburgueria dev!</title>
+    <!-- toastfy -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
     <!-- font roboto -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!-- meta -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Dev Burguer- O melhor hamburguer dev!" />
+    <meta property="og:image" content="https://diariodonordeste.verdesmares.com.br/image/contentid/policy:1.3373983:1685132529/dia%20do%20hamburguer.jpg?f=16x9&h=698&w=1280&$p$f$h$w=de0dc13" />
+    <meta property="og:description" content="O melhor hamburguer de verdade" />
+    <meta property="og:site_name" content="Dev Burguer" />
+
     <!-- js -->
     <script defer src="./src/js/index.js"></script>
 </head>
@@ -197,7 +207,7 @@
             <input type="text" placeholder="digite seu endereço completo" id="address"
                 class="w-full border-2 p-1 rounded my-1">
 
-            <p class="text-red-500 hidden  ">Digite seu endereço completo!</p>
+            <p class="text-red-500 hidden" id="address-warn">Digite seu endereço completo!</p>
 
             <div class="flex items-center justify-between mt-5 w-full">
                 <button id="close-modal-btn">Fechar</button>
@@ -226,6 +236,8 @@
 
     <!-- font awesome -->
     <script src="https://kit.fontawesome.com/952bfdac73.js" crossorigin="anonymous"></script>
+    <!-- toastify -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
 </body>
 
 </html>
